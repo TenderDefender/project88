@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/HomePage.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css">
+  
+ </head>
+ <body>
+  <header>
+    <div class="header__logo">
+       <p>Logo</p>
+    </div>
+    <div class="header__search">
+       <input class="header__search--input"></input>
+    </div>
+    <div class="header__PriceAndbag">
+        <div class="header__shopingBag"></div>
+        <div class="header__totalPrice">
+           <h2 class="totalPrice__text">0</h2>
+        </div>
+    </div>
+  </header>
+  <nav>
+     <div class="nav__home">
+       <a class="nav__link">Home</a>
+     </div>
+     <div class="nav__accessories">
+       <a class="nav__link">accessories</a>
+     </div>
+     <div class="nav__headPhones">
+       <a class="nav__link">headPhones</a>
+     </div>
+     <div class="nav__bluetoothSpeakers">
+       <a class="nav__link">Bluetooth Speakers</a>
+     </div>
+     <div class="nav__IqosStickers">
+       <a class="nav__link">Iqos Stickers</a>
+     </div>
+  </nav>
+  <main>
+     <div class="slider">
+	        <img class="Prev__slide" src="img/Prev.png">
+            <div class="slider__image">
+			 <strong class="img__heading">Защитное стекло с Олеофобным покрытием</strong>
+		     <img class="safetyGlass__img" src="img/safetyGlassOleoff.jpg"></img>
+		    </div>
+		    <div class="slider__text">
+		     <p class="slider__text--p">Защитное стекло с олеофобным покрытием – простейший способ защитить мобильный телефон или другой гаджет от жира и загрязнений.
+			 Такое покрытие представляет собой смесь силикона, алкилсилана и растворителя.
+			 Эти химические вещества наносятся на экран мобильного устройства с помощью специального распылителя.
+             Защитное стекло с олеофобным покрытием поможет предотвратить появление загрязнений и солнечных бликов на экране телефона.
+			 Это, в свою очередь, сделает его использование более комфортным в дневное время.
+             Производители защитных стекол с подобным покрытием постоянно совершенствуют технологические процессы.
+			 Вот почему срок эксплуатации таких приспособлений может достигать 12 месяцев.</p>
+		    </div>
+			<img class="Next__slide" src="img/Next.png">
+     </div>
+	 <div class="categories">
+	   <a class="categories__link" href="shop.html">Categories</a>
+	 </div>
+	 <div class="ourProduct__contaier">
+	     <img class="categories__img" src="img/airpods.jpg"></img>
+	     <img class="categories__img" src="img/img1.png"></img>
+	     <img class="categories__img" src="img/img2.jpg"></img>
+	 </div>
+	 <div class="megaSale__text">
+	    <h2>Mega Sale</h2>
+	 </div>
+	 <div class="sellOutShow__container">
+	 <div class="firstLine__container">
+	     <img class="firstLine__img" src="img/img3.jpg"></img>
+		 <img class="firstLine__img" src="img/img4.jpg"></img>
+		 <img class="firstLine__img" src="img/img5.jpg"></img>
+	 </div>
+	 <div class="secondLine__container">
+	    <img class="secondLine__img" src="img/img6.jpg"></img>
+		<img class="secondLine__img" src="img/img7.jpg"></img>
+		<img class="secondLine__img" src="img/img8.jpg"></img>
+	 </div>
+	 </div>
+  </main>
+      <button class="open-button" onclick="openForm()">call back</button>
+   <div class="form-popup" id="myForm">
+      <div class="form-container">
+       <h1>Заказ звонка</h1>
+       <label  for="name"><b>ФИО</b></label>
+       <input class="user__name" type="text" placeholder="ФИО" name="name" required>
+       <label for="number"><b>Номер</b></label>
+       <input class="phone__number" type="text" placeholder="Ваш номер телефона" name="number" required>
+	   <label for="comments"><b>Комментарий:</b></label>
+       <input class="user__comments" type="text" placeholder="Комментарий" name="email" required>
+	    <button  class="btn">Отправить</button>
+       <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+     </div>
+</div>
+  <footer>
+  <p class="footer__text">Company</p>
+  </footer>
+  <script src="js/form.js"></script>	
+  <script src="js/slider.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+ </body>
+</html>
