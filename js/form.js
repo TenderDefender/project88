@@ -24,7 +24,7 @@ function refreshForm(){
 
 
 
-//https://api.telegram.org/bot1062519589:AAHoNrXrIwCXYJncAw7p_lZMkUcV_Zo13Io/sendMessage?chat_id=-397621618&text=hi_i_am_a_bot
+//https://api.telegram.org/bot1062519589:AAHoNrXrIwCXYJncAw7p_lZMkUcV_Zo13Io/sendMessage?chat_id=-383604984&text=hi_i_am_a_bot
 
 
 //https://api.telegram.org/bot1062519589:AAHoNrXrIwCXYJncAw7p_lZMkUcV_Zo13Io/getUpdates
@@ -39,9 +39,9 @@ function submitForm(){
 	let phoneNumber=document.querySelector('.phone__number').value;
 	let userComments=document.querySelector('.user__comments').value;
 	const token='1062519589:AAHoNrXrIwCXYJncAw7p_lZMkUcV_Zo13Io';
-	let url='https://api.telegram.org/bot' + token + '/sendMessage?chat_id=-397621618&text='
+	let url='https://api.telegram.org/bot' + token + '/sendMessage?chat_id=-383604984&text='
 	xhttp.open("GET",url + 'ФИО: ('+userName +') номер телефона:(' +phoneNumber + ') Комментрарий: (' + userComments + ')',true);
-	 setTimeout(xhttp.send(),100);
-	 setTimeout(refreshForm(),1000);
+	 setTimeout(xhttp.send(),1000);
+	 setTimeout(refreshForm(),2000);
 	 }
 

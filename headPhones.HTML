@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title></title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/shop.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/HomePage.css">
+  <link rel="stylesheet" href="css/headPhones.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css">
   
  </head>
  <body>
@@ -40,7 +43,10 @@
        <a class="nav__link" href="phoneCases.HTML">Phone Cases</a>
      </div>
   </nav>
-  <main>
+  <div class="wrap">
+  <aside><!-- Remove aside element if you don't have sidebar -->
+    <div class="sidebar">
+      <main>
     <div class="filter__conatiner">
 	  <button class="show__filter--button">Фильтры</button>
 	  <ul class="model__list">Производитель:
@@ -54,14 +60,53 @@
 	  </ul>
 	</div>
 	<div class="main__container">
-	  
 	</div>
-  </main>
+  </main> 
+    </div>
+  </aside>
+   <div class="catalog">
+    <div class="cell">
+      <div class="cell_inside">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. 
+      </div>
+    </div>
+    <div class="cell">
+      <div class="cell_inside">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. Contrary to popular belief, Lorem Ipsum is not simply random text.
+      </div>
+    </div>
+    <div class="cell">
+      <div class="cell_inside">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. 
+      </div>
+    </div>
+    <div class="cell">
+      <div class="cell_inside">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. 
+      </div>
+    </div>
+    <div class="cell">
+      <div class="cell_inside">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. Contrary to popular belief, Lorem Ipsum is not simply random text.
+      </div>
+    </div>
+    <div class="cell">
+      <div class="cell_inside">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. 
+      </div>
+    </div>
+    <div class="cell">
+      <div class="cell_inside">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. 
+      </div>
+    </div>
+  </div>
+</div>
   <footer>
-    <p class="footer__text">Company</p>
+  <p class="footer__text">Company</p>
   </footer>
-  <script src="js/shop-filter.js"></script>
   <script src="js/form.js"></script>	
+  <script src="js/shop-filter.js"></script>
+  <script src="js/slider.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
- </body>
-</html>
+  </body>

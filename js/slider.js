@@ -10,9 +10,9 @@ let sliderCounter=0;
 
 
 let imgArr=[
-`img/safetyGlassOleoff.jpg`,
-`img/safetyGlass3D.jpg`,
-`img/safetyGlassAntiSpy.jpg`,
+`img/homePage/safetyGlassOleoff.jpg`,
+`img/homePage/safetyGlass3D.jpg`,
+`img/homePage/safetyGlassAntiSpy.jpg`,
 ];
 
 let imgDescriptionArr=[
